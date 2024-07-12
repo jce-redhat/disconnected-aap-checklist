@@ -2,7 +2,7 @@
 
 Installing [Red Hat Ansible Automation Platform](https://www.redhat.com/en/technologies/management/ansible) (AAP) in environments which are fully disconnected from the internet is fairly straightforward with some planning and preparation.  The following checklist will help prepare you for a virtual machine-based installation of AAP on a disconnected network. Running AAP on an [OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift) cluster in a disconnected environment is also a supported option, but is out of scope for this checklist.
 
-A minimal production architecture for AAP consists of three to five virtual machines: an option (but preferred) dedicated installation host, a single automation controller, a single private automation hub, a dedicated installer-managed database, and optionally an Event-Driven Ansible (EDA) controller.  This architecture provides the basic requirements for running AAP, while providing the flexibility to scale the platform in the future as needed.
+A minimal production architecture for AAP consists of three to five virtual machines: an optional (but preferred) dedicated installation host, a single automation controller, a single private automation hub, a dedicated installer-managed database, and optionally an Event-Driven Ansible (EDA) controller.  This architecture provides the basic requirements for running AAP, while providing the flexibility to scale the platform in the future as needed.
 
 ![Simple AAP Architecture Diagram](./images/simple-aap-architecture-dark.png#gh-dark-mode-only)![Simple AAP Architecture Diagram](./images/simple-aap-architecture-light.png#gh-light-mode-only)
 
